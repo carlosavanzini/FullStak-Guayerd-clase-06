@@ -60,14 +60,12 @@
     // }
 
 // 7)Realizar un programa que pida al usuario dos números y muestre los números del primer número al segundo. (Ejemplo: 5 y 9: 6,7,8) Aceptar solo enteros. 
-    let numero = parseInt(prompt("Ingrese el primer numero"));
-    let numero1 = parseInt(prompt("Ingrese el segundo numero"));
-    for (let i = numero +1 ; i<numero1; i++) {
-        console.log(i);
+    // let numero = parseInt(prompt("Ingrese el primer numero"));
+    // let numero1 = parseInt(prompt("Ingrese el segundo numero"));
+    // for (let i = numero +1 ; i<numero1; i++) {
+    //     console.log(i);
         
-    }
-
-
+    // }
 
 // Preguntar al usuario cuántos números quiere ingresar. Luego solicitar que los ingrese uno por uno y mostrar cuál es el mayor.
 // Solicitar al usuario que ingrese la cantidad de números que quiera, uno por uno, y mostrar cual es el menor de todos.
