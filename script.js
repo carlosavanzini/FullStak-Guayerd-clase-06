@@ -322,3 +322,11 @@
 // }
 
 //6) Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci.
+let numero = parseInt(prompt("ingrese un numero"))
+	let fibo =1;
+    let total =1;
+
+	for(i=1; i <= numero; i++){
+		total=(fibo[i-1] + fibo[i-2]);
+		console.log(total);	
+	}
