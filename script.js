@@ -248,12 +248,6 @@
 //           fin=true;
 //     }
 // }
-let fin=false
-while (fin===false) {
-    let numero =parseInt(prompt("ingrese numero"));
-    aux=numero
-}
-
 
 
 
