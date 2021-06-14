@@ -262,32 +262,63 @@
 
 // Bonus desafíos matemáticos !!
 
-// Agregar al ejercicio 5 una validación de que solo se acepte números del 1 al 10. Si ingresa un número no válido, volver a solicitar el dato. 
+//1) Agregar al ejercicio 5 una validación de que solo se acepte números del 1 al 10. Si ingresa un número no válido, volver a solicitar el dato. 
 
     // let suma= 0;
     // let numero;
     // let cantidadNumero=0;
     //     while(numero !== 0  ) {
-    //         numero= parseInt(prompt("ingrese numeros, cuando ingre se 0 se cortara y mostrara el resultado de los numero ingresados"));
-    //         if (numero=1,2,3,4,5,6,7,8,9,10) {
-    //             suma = suma + numero;
-    //             cantidadNumero++
-    //         }else{
-    //             alert("Volver a pedir dato")
+    //         numero= parseInt(prompt("ingrese numeros, cuando ingrese 0 se cortara y mostrara el resultado de los numero ingresados"));
+    //     if (numero>=1 && numero<=10) {
+    //         suma = suma + numero;
+    //         cantidadNumero++;
+    //      }else if(numero>=11){
+    //         alert("Numero no valido, recuerdo que los numeros que puede ingresar es desde el 1 hasta el 10")
     //         }
             
-          
+           
     //     }
-    // promedio = suma/(cantidadNumero-1);
+    // promedio = suma/(cantidadNumero);
     // alert(`Usted ingreso el ${numero}, el promedio de la suma es igual a  ${promedio}`);
 
-// Realizar un programa que pida números consecutivos (3, 4 y 5; 9, 10 y 11, etc.). Cuando se introducen tres números consecutivos dice “gracias” y termina. Mientras no se introduzcan tres números consecutivos el programa sigue pidiendo números indefinidamente. 
-// Realizar un programa que pida dos números y diga su máximo común divisor. 
+//2) Realizar un programa que pida números consecutivos (3, 4 y 5; 9, 10 y 11, etc.). Cuando se introducen tres números consecutivos dice “gracias” y termina. Mientras no se introduzcan tres números consecutivos el programa sigue pidiendo números indefinidamente. 
+// let numero=1;
+// let numero1=1;
+// let numero2=1;
+// let fin=1 ;
+// let fin2=1;
+
+// while (fin===fin2) {
+//     let numero=parseInt(prompt("Ingrese el primer numero"));
+//     let numero1=parseInt(prompt("Ingrese el segundo numero"));
+//     let numero2=parseInt(prompt("Ingrese el tercer numero"));
+
+//     if (numero===numero1-1 && numero1===numero2-1) {
+//           alert("Gracias")  
+//           fin2=2;
+//     }
+// }
+
+//3) Realizar un programa que pida dos números y diga su máximo común divisor. 
 // (notas sobre el Máximo Común Divisor: 
 // - Es el máximo número por el cuál se puede dividir un número dejando resto 0.
 // - No puede ser mayor al valor de la mitad del menor número o sí mismo.
 //  (Ejemplo: Si mis números son 9 y 12, no puede estar entre 5 y 8, ni ser mayor a 9).
 //  (Ejemplo: Si mis números son 10 y 15, no puede estar entre 6 y 9, ni ser mayor a 10). (Podemos probar: 1,2,3,4,10).
-// Solicitar al usuario que ingrese números. Mostrar los primeros tres multiplicados por 1, luego los próximos tres multiplicados por 2 y así sucesivamente. Cortar cuando el usuario ingrese un número mayor a 100.
-// Solicitar al usuario que ingrese 10 números, calcular el factorial de cada uno de ellos  y mostrarlo.
-// Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci.
+
+//4) Solicitar al usuario que ingrese números. Mostrar los primeros tres multiplicados por 1, luego los próximos tres multiplicados por 2 y así sucesivamente. Cortar cuando el usuario ingrese un número mayor a 100.
+
+//5) Solicitar al usuario que ingrese 10 números, calcular el factorial de cada uno de ellos  y mostrarlo.
+
+// let intentos= 1;
+// while (intentos<=10) {
+//     let numero = parseInt(prompt("Ingrese un numero para saber su factorial"));
+//     let total = 1; 
+// for (i=1; i<=numero; i++) {
+// 	total = total * i; 
+// }
+// console.log(`El factorial de ${numero} es ${total}`);
+// intentos++;
+// }
+
+//6) Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci.
