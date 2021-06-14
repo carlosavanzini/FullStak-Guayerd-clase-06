@@ -1,7 +1,59 @@
 // Ejercicios de bucles
 
 // 0) Agregar en el ejercicio de home banking la posibilidad de seguir operando hasta que el usuario decida salir.
+// const usuario = "usuario";
+// let saldo = 1000; //Asumimos un saldo de $1000
+// let pass = 1234; //Asumimos contraseña numérica por ser cajero automático.
+// let usuarioIngresado = prompt("Ingrese su usuario");
+// let operacion="si";
 
+// if (usuarioIngresado !== usuario){
+//     alert("Usuario incorrecto, el programa se cerrará.");
+// }  else {
+//     let passIngresado = parseInt(prompt("Ingrese su contraseña"));
+//     if (passIngresado !== pass){
+//         alert("Contraseña incorrecta, el programa se cerrará.");
+//     } 
+// }
+
+// while (operacion ==="si") {
+//     let opcion = parseInt(prompt("Elija una de las siguientes opciones:  1- Ver saldo actual  |  2- Retirar dinero | 3- Depositar dinero en su cuenta | 4- Cambiar su clave."));
+//     switch (opcion){
+//         case 1:
+//             alert("Tu saldo actual es de $" + saldo);
+//             break;
+//         case 2:
+//             let retiro = parseInt(prompt("Ingrese el monto a retirar"));
+//             if (retiro > saldo){
+//                 alert("El monto ingresado es mayor a su saldo actual. Su saldo actual es de $" + saldo );
+//             } else {
+//                 saldo = saldo - retiro;
+//                 alert("Usted retiró $"+ retiro + ". Su saldo actual es de $" + saldo );
+//             }
+//             break;
+//         case 3:
+//             let deposito = parseInt(prompt("Ingrese el monto a depositar"));
+//             saldo = saldo + deposito;
+//             alert("Usted ingresó $"+ deposito + ". Su nuevo saldo es de $" + saldo );
+//             break;
+//         case 4:
+//             let nuevoPass = parseInt(prompt("Ingrese su nueva clave"));
+//             let nuevoPassBis = parseInt(prompt("Reingrese su clave"));
+//             if (nuevoPass === nuevoPassBis){
+//                 pass = nuevoPass;
+//                 alert("Su nueva clave es: " + pass);
+//             } else {
+//                 alert("Las claves ingresadas no coinciden. El programa se cerrará"); 
+//             }
+//             break;
+//         default:
+//             alert("Opción no válida. El programa se cerrará.")
+//     }
+//       operacion=prompt("Desea realizar otra operacion?Escriba si o no")
+// }
+     
+       
+    
 // const usuario = "usuario";
 // let saldo = 1000; //Asumimos un saldo de $1000
 // let pass = 1234; //Asumimos contraseña numérica por ser cajero automático.
@@ -226,8 +278,8 @@
             
           
     //     }
-//     promedio = suma/(cantidadNumero-1);
-//     alert(`Usted ingreso el ${numero}, el promedio de la suma es igual a  ${promedio}`);
+    // promedio = suma/(cantidadNumero-1);
+    // alert(`Usted ingreso el ${numero}, el promedio de la suma es igual a  ${promedio}`);
 
 // Realizar un programa que pida números consecutivos (3, 4 y 5; 9, 10 y 11, etc.). Cuando se introducen tres números consecutivos dice “gracias” y termina. Mientras no se introduzcan tres números consecutivos el programa sigue pidiendo números indefinidamente. 
 // Realizar un programa que pida dos números y diga su máximo común divisor. 
