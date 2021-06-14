@@ -106,8 +106,7 @@
 // 6)Realizar un programa que pida al usuario un número y muestre los números del 1 al número introducido. 
     // let numero = parseInt(prompt("ingrese el numero y le mostraremos desde el 1 hasta el que ingreso"));
     // for (let i = 1; i<=numero; i++) {
-    //   console.log(i)
-       
+    //   console.log(i) 
     // }
 
 // 7)Realizar un programa que pida al usuario dos números y muestre los números del primer número al segundo. (Ejemplo: 5 y 9: 6,7,8) Aceptar solo enteros. 
@@ -237,19 +236,26 @@
 // let numero=1;
 // let numero1=1;
 // let numero2=1;
-// let fin=1 ;
-// let fin2=1;
+// let fin=false;
 
-// while (fin===fin2) {
+// while (fin===false) {
 //     let numero=parseInt(prompt("Ingrese el primer numero"));
 //     let numero1=parseInt(prompt("Ingrese el segundo numero"));
 //     let numero2=parseInt(prompt("Ingrese el tercer numero"));
 
 //     if (numero===numero1-1 && numero1===numero2-1) {
 //           alert("Gracias")  
-//           fin2=2;
+//           fin=true;
 //     }
 // }
+let fin=false
+while (fin===false) {
+    let numero =parseInt(prompt("ingrese numero"));
+    aux=numero
+}
+
+
+
 
 //3) Realizar un programa que pida dos números y diga su máximo común divisor. 
 // (notas sobre el Máximo Común Divisor: 
