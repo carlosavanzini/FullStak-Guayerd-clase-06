@@ -305,9 +305,10 @@
 // - No puede ser mayor al valor de la mitad del menor número o sí mismo.
 //  (Ejemplo: Si mis números son 9 y 12, no puede estar entre 5 y 8, ni ser mayor a 9).
 //  (Ejemplo: Si mis números son 10 y 15, no puede estar entre 6 y 9, ni ser mayor a 10). (Podemos probar: 1,2,3,4,10).
-
+                            //***********FALTA*********
 //4) Solicitar al usuario que ingrese números. Mostrar los primeros tres multiplicados por 1, luego los próximos tres multiplicados por 2 y así sucesivamente. Cortar cuando el usuario ingrese un número mayor a 100.
-
+                             //***********FALTA*********
+ 
 //5) Solicitar al usuario que ingrese 10 números, calcular el factorial de cada uno de ellos  y mostrarlo.
 
 // let intentos= 1;
@@ -322,11 +323,19 @@
 // }
 
 //6) Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci.
-let numero = parseInt(prompt("ingrese un numero"))
-	let fibo =1;
-    let total =1;
-
-	for(i=1; i <= numero; i++){
-		total=(fibo[i-1] + fibo[i-2]);
-		console.log(total);	
-	}
+    // let numero = parseInt(prompt("ingrese un numero"))
+    // let numero1=1;
+    // let numero2=0;
+    // let resultado=0;
+    // for (let i = 0; i < numero; i++) {
+    //     resultado = numero1+numero2
+    //     numero1=numero2;
+    //     numero2=resultado;
+    //     console.log(resultado)
+    // }
+    // secuencia
+    // 0+1=1
+    //   1+1=2
+    //     1+2=3
+    //       2+3=5 
+    //         3+5=8
